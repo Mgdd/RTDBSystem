@@ -2,11 +2,16 @@
 Real-Time database system algorithms semulation
 
 this program is composed of 5 real-time database system algorithms, the algorithms are listed below: 
-a-	Wait techniques  with earliest deadline first for resovling the conflict
-b-	Wait Promote techniques with earliest deadline first for resovling the conflict
-c-	High Priority techniques  with earliest deadline first for resovling the conflict
-d-	Conditional Restart techniques  with earliest deadline first for resovling the conflict
-e-	Proposed model: it called Conditional Waiting High Priority technieque (CWHP) to resolve the conflict.
+
+a-Wait techniques  with earliest deadline first for resovling the conflict
+
+b-Wait Promote techniques with earliest deadline first for resovling the conflict
+
+c-High Priority techniques  with earliest deadline first for resovling the conflict
+
+d-Conditional Restart techniques  with earliest deadline first for resovling the conflict
+
+e-Proposed model: it called Conditional Waiting High Priority technieque (CWHP) to resolve the conflict.
           
 proposed model called :Conditional Waiting High Priority technieque (CWHP) to resolve the conflict , we take the below data for example
 
