@@ -51,7 +51,7 @@ namespace RTDBSystem
         private static Transaction GetTransactionCREDLF(List<Transaction> LstTrans, List<DataObject> LstData, int clock)
         {
             var tran = LstTrans[0];
-            //LstTrans.Sort((x, y) => x.Deadline.CompareTo(y.Deadline));
+            
             foreach (var item in LstTrans)
             {
                 if (item.ArrivalTime <= clock && item.Deadline <= tran.Deadline && !item.isCommited)
